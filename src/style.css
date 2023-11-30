@@ -1,0 +1,147 @@
+body {
+  background: white; /* Make it white if you need */
+  padding: 0 24px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+  color: #72a24d;
+}
+
+
+.row-1{
+  display: flex;
+}
+
+.row-1 p{
+  @media only screen and (max-width: 770px) {
+  font-size: 10px; /* Adjust the font size for mobile */
+  overflow-wrap: break-word;
+
+}
+}
+
+.row-2{
+    display: flex;
+    padding-top: 20px;
+     }
+   
+.btn-container{
+      display: flex;
+      flex-direction : column;
+      margin-left: 10px;
+  padding-left: 20px;
+  justify-content: space-between;
+  position: relative;
+
+     
+  @media only screen and (max-width: 770px) {
+    width: 100%;
+    margin-left: 0px;
+  padding-left: 0px;
+   }
+     }
+
+     .btn-container .inpt{
+      display: flex;
+      flex-direction: column;
+     }
+
+     .row-2 img{
+      width: 211px;
+      height: 128px;
+
+       
+
+      @media only screen and (max-width: 770px) {
+        width: 159px;
+        height: 98px;
+        padding-bottom: 20px}
+      
+  }
+  
+
+.content{
+margin-left: 5px;
+padding-left: 5px;
+}
+
+ 
+.content h1{
+  color: #181818;
+/* font-family: Roboto; */
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 75%;
+ }
+
+ .content  p{
+  color: var(--font-dark-grey, #747474);
+
+/* @1x/Body 2 Reg */
+/* font-family: Roboto; */
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+ }
+
+.btn-container input{
+  padding: 15px;
+  border: 1px solid #4091F0;
+  border-radius: 5px;
+}
+
+ /* .btn-container input :focus{
+    border: 1px #4091F0 !important;
+  } */
+
+
+
+.btn-container button{
+  background: #8AA838;
+border-style: none;
+color: #FFFFFF;
+padding: 10px;
+border-radius: 4px;
+padding: 15px;
+}
+
+.btn-container .ctn-length{
+  font-size: 15px;
+  color: #ACACAC;
+  text-align: right;
+  padding-top: 7px;
+
+}
+
+.btn-container .subhead{color: var(--tertiary-blue, #4091F0);
+/* font-family: Roboto; */
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: white;
+width: fit-content;
+position: absolute;
+z-index: 1;
+top: -7px;
+left: 35px;
+padding: 0px 4px;}
+
+@media only screen and (max-width: 770px) {
+.row-2{
+  flex-direction: column;
+  align-items: center;
+}
+}
+ 
+
+
+     
